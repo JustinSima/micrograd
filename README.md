@@ -1,6 +1,6 @@
 # micrograd
 Creating an Autograd engine and small deep learning library from scratch with the help of Andrej Karpathy and his walkthrough YouTube video [here](https://www.youtube.com/watch?v=VMj-3S1tku0). 
-Inspired by PyTorch, we recreate autograd's Value class (now deprecated in PyTorch) which allows for building and differentiating on dynamically created DAGs. We also create a small deep learning module inspired by PyTorch's nn Module, which allows for building and optimizing basic neural networks just like in PyTorch (with a fit method thrown in for the Tensorflow fans). This is an educational project practicing my fundamentals, and there's nobody better than Andrej to learn from! See the original package [here](https://github.com/karpathy/micrograd), or check out my implementation in this repo.
+Inspired by PyTorch, we recreate autograd's Value class (now deprecated in PyTorch) which allows for building and differentiating on dynamically created DAGs. We also create a small deep learning module inspired by PyTorch's nn Module, which allows for building and optimizing basic neural networks just like in PyTorch (with a fit method thrown in for the Tensorflow fans). This is an educational project practicing my fundamentals, and there's nobody better than Andrej to learn from. See the original package [here](https://github.com/karpathy/micrograd), or check out my implementation in this repo.
 
 ### Creating and Training an MLP:
 ```python
